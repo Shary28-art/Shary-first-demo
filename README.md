@@ -15,3 +15,26 @@ int main()
    return 0;
 
 }
+
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Which subject you have passed in:");
+    printf("Type 1 for passing maths and science,2 for maths, 3 for science");
+    scanf("%d",&a);
+    if (a==1){
+      printf("Wow!You have won a prize of 45\n");
+    }
+    else if(a==2){
+        printf("Wow! You have won a prize of 15\n");
+    }
+    else if(a==3){
+        printf("Wow!You have won a prize of 15\n");
+    }
+    else{
+        printf("Sorry!But you have not won anything");
+    }
+    return 0;
+}
